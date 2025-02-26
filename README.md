@@ -128,17 +128,10 @@ systemctl status kea-dhcp4-server
 ```
 
 
-# En El Cliente 
+## En El Cliente 
 
 ```bash
 dhclient -r
 dhclient -v
 ```
 
-```bash
-
-```
-
-```bash
-
-```
