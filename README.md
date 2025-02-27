@@ -111,7 +111,7 @@ touch /var/log/kea-dhcp4.log
 chown _kea:_kea /var/log/kea-dhcp4.log
 ```
 
-- Habilitamos el IP Forwating para hacer un routing entre las interfaces : 
+- Habilitamos el IP Forwading para hacer un routing entre las interfaces : 
 
 ```bash
 echo "net.ipv4.ip_forward=1" | tee -a /etc/sysctl.conf
