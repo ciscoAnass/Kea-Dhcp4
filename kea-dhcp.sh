@@ -50,7 +50,6 @@ read -p "Introduza el rango de direcciones IP: (192.168.1.100 - 192.168.1.200) :
 
 
 
-read -p ""
 
 cat > /etc/kea/kea-dhcp4.conf <<EOF
 {
