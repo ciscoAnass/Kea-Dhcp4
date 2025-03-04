@@ -139,7 +139,8 @@ dhclient -v
 
 # Script de Automatizacion
 
-- Este script instala y configura Kea DHCP4 en Debian/Ubuntu. Verifica la instalación, configura la red, genera un archivo de configuración DHCP con la subred y rango ingresados, habilita el reenvío IP y reinicia el servicio para aplicar los cambios. Para usar este script, revisa este enlace de GitHub. 
+- Este script instala y configura Kea DHCP4 en Debian/Ubuntu. Verifica la instalación, configura la red, genera un archivo de configuración DHCP con la subred y rango ingresados, habilita el reenvío IP y reinicia el servicio para aplicar los cambios. Para usar este script, revisa este [enlace.](/kea-dhcp.sh)
+ 
 
 
 
