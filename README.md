@@ -18,7 +18,7 @@ apt install kea-dhcp4-server -y
 auto lo
 iface lo inet loopback
 
-# The internet-facing interface
+# Interfaz para accesso al internet
 auto enp0s3
 iface enp0s3 inet static
     address 192.168.1.100
@@ -26,7 +26,7 @@ iface enp0s3 inet static
     gateway 192.168.1.1
     dns-nameservers 8.8.8.8 8.8.4.4
 
-# The DHCP server interface
+# Servidor DHCP
 auto enp0s8
 iface enp0s8 inet static
     address 172.26.0.1
@@ -134,4 +134,25 @@ systemctl status kea-dhcp4-server
 dhclient -r
 dhclient -v
 ```
+
+*** 
+
+# Script de Automatizacion
+
+- Este script instala y configura Kea DHCP4 en Debian/Ubuntu. Verifica la instalación, configura la red, genera un archivo de configuración DHCP con la subred y rango ingresados, habilita el reenvío IP y reinicia el servicio para aplicar los cambios. Para usar este script, revisa este enlace de GitHub. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
